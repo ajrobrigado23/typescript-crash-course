@@ -1,6 +1,6 @@
 ---
 
-**Title / Repo Name**: `typescript-crash-course`
+**Title / Repo Name**: typescript-crash-course
 
 # Learning TypeScript 🚀
 
