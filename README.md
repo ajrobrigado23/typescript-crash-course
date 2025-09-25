@@ -3,7 +3,7 @@ Title: "typescript-crash-course"
 
 # Learning TypeScript 🚀
 
-This repository documents my journey of learning **TypeScript**.
+This repository documents my journey of learning *TypeScript*.
 I’m using it as a crash course to explore the language, practice concepts, and build confidence transitioning from JavaScript to TypeScript.
 
 ## 📖 Topics I’m Learning
