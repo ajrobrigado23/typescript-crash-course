@@ -1,12 +1,31 @@
 class Customer {
 
-    firstName: string;
-    lastName: string;
+    // Add Accessors - Get / Set
+
+    private _firstName: string;
+    private _lastName: string;
 
     // define a constructor
     constructor(firstName: string, lastName: string) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+        this._firstName = firstName;
+        this._lastName = lastName;
+    }
+
+    // getter and setter methods
+    get firstName(): string {
+        return this._firstName;
+    }
+
+    set firstName(value: string) {
+        this._firstName = value;
+    }
+
+    get lastName(): string {
+        return this._lastName;
+    }
+
+    set lastName(value: string) {
+        this._lastName = value;
     }
 
 }

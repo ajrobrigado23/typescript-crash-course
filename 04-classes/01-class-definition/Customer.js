@@ -1,12 +1,25 @@
-var Customer = /** @class */ (function () {
+"use strict";
+class Customer {
     // define a constructor
-    function Customer(firstName, lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    constructor(firstName, lastName) {
+        this._firstName = firstName;
+        this._lastName = lastName;
     }
-    return Customer;
-}());
+    // getter and setter methods
+    get firstName() {
+        return this._firstName;
+    }
+    set firstName(value) {
+        this._firstName = value;
+    }
+    get lastName() {
+        return this._lastName;
+    }
+    set lastName(value) {
+        this._lastName = value;
+    }
+}
 // create an instance
-var myCustomer = new Customer("Martin", "Dixon");
+let myCustomer = new Customer("Martin", "Dixon");
 console.log(myCustomer.firstName);
 console.log(myCustomer.lastName);
