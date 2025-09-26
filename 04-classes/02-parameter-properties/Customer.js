@@ -1,0 +1,25 @@
+"use strict";
+class Customer {
+    // define a constructor (add parameter properties)
+    constructor(_firstName, _lastName) {
+        this._firstName = _firstName;
+        this._lastName = _lastName;
+    }
+    // getter and setter methods (accessors)
+    get firstName() {
+        return this._firstName;
+    }
+    set firstName(value) {
+        this._firstName = value;
+    }
+    get lastName() {
+        return this._lastName;
+    }
+    set lastName(value) {
+        this._lastName = value;
+    }
+}
+// create an instance
+let myCustomer = new Customer("Martin", "Dixon");
+console.log(myCustomer.firstName);
+console.log(myCustomer.lastName);
